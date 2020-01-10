@@ -1,3 +1,70 @@
+  .top_bar{
+    margin-top: 0px;
+    padding-top: 6px;
+    font-size: 13px;
+  }
+  .bottom_bar{
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-family: arial,sans-serif;
+    opacity: 0.75;
+  }
+
+  .first_up {
+    padding-inline-start: 0px;
+    padding-left: 2px;
+    opacity: 0.75;
+  }
+
+  .sign_in {
+      border-radius: 6px;
+      height: 35px;
+      width: 75px;
+      border: 1px solid #4285F4;
+      background-color: #4285F4;
+      color: aliceblue;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+  }
+
+  .opac {
+      opacity: 0.75;
+  }
+
+  .second_up {
+    padding-inline-start: 0px;
+    padding-left: 2px;
+    position: relative;
+    float: right;
+    text-align: right;
+  }
+
+
+  
+  ul {
+      display: inline-block;
+  }
+
+  li {
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #000;
+  }
+  a {
+      text-decoration: none;
+      color:  #000;
+      font-family: arial,sans-serif;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+
+ 
  .img_class {
     margin-left: auto;
     margin-right: auto;
@@ -6,11 +73,10 @@
   }
   .img_divide {
     height: 233px;
+    margin: auto;
+    width: 50%;
   }
 
-  .center {
-    text-align: center;    
-  }
 .curve_search{
     border-radius: 20px;
     height: 30px;
